@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using SampleAPIProject.Models;
 using System;
 using System.Collections.Generic;
@@ -13,13 +14,23 @@ namespace SampleAPIProject.Controllers
 
     public class PointOfInterestController : ControllerBase
     {
+        private readonly ILogger<PointOfInterestController> _logger;
+
+        public PointOfInterestController(ILogger<PointOfInterestController> logger)
+        {
+            _logger = logger ?? throw new ArgumentException(nameof(logger));
+        }
+
         [HttpGet]
         public IActionResult GetPointsofInterest(int cityId)
         {
             var city = CitiesDataStore.Current.Cities
                                      .FirstOrDefault(c => c.Id == cityId);
             if (city == null)
+            {
+                _logger.LogInformation($"City with id {cityId} wasn't Found when accessing");
                 return NotFound();
+            }
             return Ok(city.PointOfInterests);
         }
 
