@@ -13,3 +13,4 @@ C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1
 C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.dll
 C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.pdb
 C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.genruntimeconfig.cache
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\bin\Debug\netcoreapp2.1\nlog.config

@@ -1,0 +1,18 @@
+2021-03-28 23:26:35.2829|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Gaurav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-28 23:26:36.3927|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-03-28 23:26:36.3927|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-03-28 23:26:36.4996|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 94.2159ms 200 
+2021-03-28 23:26:36.6967|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 304.5864ms 404 text/plain
+2021-03-28 23:27:20.8331|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Gaurav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-28 23:27:22.2916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-03-28 23:27:22.2916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/10/pointsofinterest  
+2021-03-28 23:27:22.2971|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-03-28 23:27:22.4864|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 200.6936ms 200 
+2021-03-28 23:27:23.0007|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 727.1286ms 404 text/plain
+2021-03-28 23:27:23.1859|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsofInterest", controller = "PointOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsofInterest(Int32) on controller SampleAPIProject.Controllers.PointOfInterestController (SampleAPIProject).
+2021-03-28 23:27:23.2642|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleAPIProject.Controllers.PointOfInterestController.GetPointsofInterest (SampleAPIProject) - Validation state: Valid
+2021-03-28 23:27:23.3500|FATAL|SampleAPIProject.Controllers.PointOfInterestController|exception occured
+2021-03-28 23:27:23.3609|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleAPIProject.Controllers.PointOfInterestController.GetPointsofInterest (SampleAPIProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 85.9993ms.
+2021-03-28 23:27:23.4046|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2021-03-28 23:27:23.4308|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleAPIProject.Controllers.PointOfInterestController.GetPointsofInterest (SampleAPIProject) in 226.9886ms
+2021-03-28 23:27:23.4493|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1177.1766ms 500 text/plain; charset=utf-8
