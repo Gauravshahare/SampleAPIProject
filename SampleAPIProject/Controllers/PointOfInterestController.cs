@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SampleAPIProject.Models;
+using SampleAPIProject.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +16,11 @@ namespace SampleAPIProject.Controllers
     public class PointOfInterestController : ControllerBase
     {
         private readonly ILogger<PointOfInterestController> _logger;
-
-        public PointOfInterestController(ILogger<PointOfInterestController> logger)
+        private readonly IMailService _mailService;
+        public PointOfInterestController(ILogger<PointOfInterestController> logger,IMailService mailService)
         {
             _logger = logger ?? throw new ArgumentException(nameof(logger));
+            _mailService = mailService ?? throw new ArgumentException(nameof(mailService));
         }
 
         [HttpGet]
@@ -149,6 +151,7 @@ namespace SampleAPIProject.Controllers
                 return NotFound();
             }
             city.PointOfInterests.Remove(pointOfInterestFromStore);
+            _mailService.Send("point of int deleted", "ok");
             return NoContent();
         }
 
