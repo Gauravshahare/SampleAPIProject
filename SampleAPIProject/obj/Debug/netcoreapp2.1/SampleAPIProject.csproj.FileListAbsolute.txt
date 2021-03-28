@@ -1,0 +1,15 @@
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\bin\Debug\netcoreapp2.1\SampleAPIProject.deps.json
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\bin\Debug\netcoreapp2.1\SampleAPIProject.runtimeconfig.json
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\bin\Debug\netcoreapp2.1\SampleAPIProject.runtimeconfig.dev.json
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\bin\Debug\netcoreapp2.1\SampleAPIProject.dll
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\bin\Debug\netcoreapp2.1\SampleAPIProject.pdb
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.csprojAssemblyReference.cache
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.AssemblyInfoInputs.cache
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.AssemblyInfo.cs
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.csproj.CoreCompileInputs.cache
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.RazorAssemblyInfo.cache
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.RazorAssemblyInfo.cs
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.RazorTargetAssemblyInfo.cache
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.dll
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.pdb
+C:\Users\Gaurav\source\repos\APIProject\SampleAPIProject\obj\Debug\netcoreapp2.1\SampleAPIProject.genruntimeconfig.cache
