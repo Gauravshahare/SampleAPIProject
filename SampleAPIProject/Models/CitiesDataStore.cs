@@ -17,13 +17,43 @@ namespace SampleAPIProject.Models
                 {
                     Id=1,
                     Name="New York",
-                    Description="The one with the big park"
+                    Description="The one with the big park",
+                    PointOfInterests= new List<PointOfInterestDto>()
+                    {
+                        new PointOfInterestDto()
+                        {
+                            Id=1,
+                            Name="Empire State Building",
+                            Description="Nice Building"
+                        },
+                        new PointOfInterestDto()
+                        {
+                            Id=2,
+                            Name="Empire State Building",
+                            Description="Nice Buillding"
+                        }
+                    }
                 },
                 new CityDto()
                 {
                     Id=2,
                     Name="Gondia",
-                    Description="Behind Saheed Zamya timya"
+                    Description="Behind Saheed Zamya timya",
+                    PointOfInterests= new List<PointOfInterestDto>()
+                    {
+                        new PointOfInterestDto()
+                        {
+                            Id=1,
+                            Name="Empire State Building",
+                            Description="Nice Building"
+                        },
+                        new PointOfInterestDto()
+                        {
+                            Id=2,
+                            Name="Empire State Building",
+                            Description="Nice Buillding"
+                        }
+                    }
                 }
             };
         }
