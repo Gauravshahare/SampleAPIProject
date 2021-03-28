@@ -24,14 +24,17 @@ namespace SampleAPIProject.Controllers
         [HttpGet]
         public IActionResult GetPointsofInterest(int cityId)
         {
-            var city = CitiesDataStore.Current.Cities
-                                     .FirstOrDefault(c => c.Id == cityId);
-            if (city == null)
-            {
-                _logger.LogInformation($"City with id {cityId} wasn't Found when accessing");
-                return NotFound();
-            }
-            return Ok(city.PointOfInterests);
+            
+              
+                var city = CitiesDataStore.Current.Cities
+                                         .FirstOrDefault(c => c.Id == cityId);
+                if (city == null)
+                {
+                    _logger.LogInformation($"City with id {cityId} wasn't Found when accessing");
+                    return NotFound();
+                }
+                return Ok(city.PointOfInterests);
+            
         }
 
         [HttpGet("{id}", Name = "GetPointOfInterest")]
