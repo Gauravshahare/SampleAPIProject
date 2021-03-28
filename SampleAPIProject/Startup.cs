@@ -26,6 +26,7 @@ namespace SampleAPIProject
                 app.UseDeveloperExceptionPage();
             }
             app.UseMvc();
+            app.UseStatusCodePages();
         }
     }
 }
